@@ -1,0 +1,35 @@
+# JARVIS .gitignore
+
+# Secrets — NEVER commit these
+.env
+*.env
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.Python
+*.egg-info/
+dist/
+build/
+.eggs/
+.venv/
+venv/
+env/
+
+# Spotipy token cache
+.cache
+.cache-*
+
+# Logs
+*.log
+jarvis.log
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp

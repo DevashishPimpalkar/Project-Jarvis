@@ -1,0 +1,30 @@
+# JARVIS — Python dependencies
+# Install with: pip install -r requirements.txt
+
+# ── Core ────────────────────────────────────────────────────
+SpeechRecognition>=3.10.0   # Audio capture and STT
+pyttsx3>=2.90               # Offline TTS engine
+python-dotenv>=1.0.0        # .env file loading
+pyaudio>=0.2.13             # Microphone access (SpeechRecognition backend)
+
+# ── NLP ─────────────────────────────────────────────────────
+spacy>=3.7.0                # Local NLP / intent parsing
+# After install run: python -m spacy download en_core_web_sm
+
+# ── AI backends (optional — only needed for PARSER_BACKEND=openai/grok) ──
+openai>=1.30.0              # OpenAI + Grok-compatible SDK
+
+# ── Spotify ─────────────────────────────────────────────────
+spotipy>=2.23.0             # Spotify Web API client
+
+# ── Weather & HTTP ──────────────────────────────────────────
+requests>=2.31.0            # HTTP client for weather API
+
+# ── Offline STT alternative (optional) ──────────────────────
+# Uncomment for offline-first Whisper transcription:
+# openai-whisper>=20231117
+# torch>=2.0.0
+
+# ── Offline STT alternative — CMU Sphinx (optional) ─────────
+# Uncomment for fully offline (but lower accuracy) STT:
+# pocketsphinx>=5.0.0

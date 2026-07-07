@@ -1,7 +1,7 @@
 # JARVIS - Python dependencies
 # Install with: pip install -r requirements.txt
 
-# ── Cor ────────────────────────────────────────────────────
+# ── Core ────────────────────────────────────────────────────
 SpeechRecognition>=3.10.0   # Audio capture and STT
 pyttsx3>=2.90               # Offline TTS engine
 python-dotenv>=1.0.0        # .env file loading

@@ -1,4 +1,4 @@
-# JARVIS - Python dependencies
+# JARVIS - Python dependencie
 # Install with: pip install -r requirements.txt
 
 # ── Core ────────────────────────────────────────────────────
